@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm </h1>
 <br/>
 
-<a href="#"><img width="100%" height="auto" src="/gitartwork.svg" height="175px"/></a>
+<a href="#"><img width="auto" height="auto" src="/gitartwork.svg" height="175px"/></a>
 
 <br/>
 - 📫 Reach me at **priyanshudubey.dev@gmail.com**
