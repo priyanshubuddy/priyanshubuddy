@@ -10,7 +10,7 @@
 </h5>
 <h5 align="left">
   
-- 🌱 I’m currently learning Google Cloud.
+- 🌱 I’m currently learning DevOps.
 - 💬 Ask me about React, React Native, and Next.js.
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/dubey-priyanshu/), [Twitter](https://x.com/Priyanxhu_), [Discord](https://discord.com/users/hii.priyanshu)
 </h5>
