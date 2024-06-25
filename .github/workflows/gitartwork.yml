@@ -1,4 +1,5 @@
 name: Generate gitartwork SVG from contribution graph
+
 on:
   push:
   schedule:
@@ -12,10 +13,26 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Generate gitartwork
+        id: gitartwork
         uses: jasineri/gitartwork@v1
         with:
           user_name: priyanshubuddy
-          text: PRIYANSHU DUBEY
+          text: PRIYANSHU
 
-#      - name: Push generated artwork
-#        uses: jasineri/simple-push-action@v1
+      - name: Save SVG artifact
+        run: echo "${{ steps.gitartwork.outputs.svg }}" > name.svg
+        # Save the generated SVG as name.svg in the workspace
+
+      - name: Upload SVG artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: name-svg
+          path: name.svg
+        # Upload name.svg as an artifact for later use
+
+      # Uncomment and customize the following step if you want to push name.svg to another branch
+      #- name: Push generated artwork
+      #  uses: jasineri/simple-push-action@v1
+      #  with:
+      #    target_branch: output
+      #    file_patterns: name.svg
