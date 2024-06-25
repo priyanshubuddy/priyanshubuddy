@@ -1,23 +1,19 @@
-<h1 align="left">Hey I am Priyanshu!</h1>
+<h1 align="left">Hello World!</h1>
 
 ###
 
 <img src="https://raw.githubusercontent.com/priyanshubuddy/priyanshubuddy/output/snake.svg" alt="Snake animation" />
 
-
 ###
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/dubey-priyanshu/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="https://x.com/Priyanxhu_" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
-  </a>
-  <a href="https://discord.com/users/hii.priyanshu" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  </a>
-</div>
+<h5 align="left">I'm Priyanshu, a passionate developer specializing in building robust and scalable applications using React, React Native, and Next.js. Currently, I am focusing on developing mobile applications with React Native. I am also an avid learner of Google Cloud technologies.
+</h5>
+<h5 align="left">
+  
+- 🌱 I’m currently learning Google Cloud.
+- 💬 Ask me about React, React Native, and Next.js.
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/dubey-priyanshu/), [Twitter](https://x.com/Priyanxhu_), [Discord](https://discord.com/users/hii.priyanshu)
+</h5>
 
 ###
 
