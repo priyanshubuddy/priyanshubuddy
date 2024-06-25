@@ -1,9 +1,12 @@
 name: Generate gitartwork SVG from contribution graph
 
 on:
-  push:
   schedule:
-    - cron: '* */24 * * *'
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
