@@ -1,35 +1,18 @@
-name: gitartwork from a contribution graph
-
-on:
-  push:
-  schedule:
-    - cron: '* */24 * * *'
-
-jobs:
-  build:
-    name: Make gitartwork SVG
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Generate gitartwork
-        id: gitartwork
-        uses: jasineri/gitartwork@v1
-        with:
-          user_name: priyanshubuddy
-          text: PRIYANSHU
-          watermark: false  # Remove the watermark
-      - name: Save SVG artifact
-        run: echo "${{ steps.gitartwork.outputs.svg }}" > gitartwork.svg
-      - name: Set up Git
-        run: |
-          git config --global user.name 'GitHub Actions'
-          git config --global user.email 'github-actions@github.com'
-      - name: Check out output branch
-        run: |
-          git fetch
-          git checkout output || git checkout -b output
-      - name: Commit and push generated artwork
-        run: |
-          git add gitartwork.svg
-          git commit -m "Generated artwork"
-          git push origin output --force
+ name: gitartwork from a contribution graph
+ on: 
+   push:
+   schedule:
+     - cron: '* */24 * * *'
+ jobs:
+   build:
+     name: Make gitartwork SVG
+     runs-on: ubuntu-latest
+     steps:
+       - uses: actions/checkout@v3
+       - uses: jasineri/gitartwork@v1
+         with:
+            # Use this username's contribution graph  
+            user_name: priyanshubuddy
+            # Text on contribution graph 
+            text: PRIYANSHU
+       - uses: jasineri/simple-push-action@v1
