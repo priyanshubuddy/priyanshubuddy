@@ -6,7 +6,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/priyanshubuddy/priyanshubuddy/output/gitartwork.svg" alt=" " />
+![jasineri/gitartwork](gitartwork.svg)
 
 ###
 
