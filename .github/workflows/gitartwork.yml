@@ -23,13 +23,13 @@ jobs:
           text: PRIYANSHU
 
       - name: Save SVG artifact
-        run: echo "${{ steps.gitartwork.outputs.svg }}" > name.svg
+        run: echo "${{ steps.gitartwork.outputs.svg }}" > gitartwork.svg
 
       - name: Upload SVG artifact
         uses: actions/upload-artifact@v2
         with:
-          name: name-svg
-          path: name.svg
+          name: gitartwork-svg
+          path: gitartwork.svg
 
       - name: Set up Git
         run: |
@@ -37,10 +37,12 @@ jobs:
           git config --global user.email 'github-actions@github.com'
         
       - name: Check out output branch
-        run: git checkout -b output
+        run: |
+          git fetch
+          git checkout output || git checkout -b output
 
       - name: Commit and push generated artwork
         run: |
-          git add name.svg
+          git add gitartwork.svg
           git commit -m "Generated artwork"
           git push origin output --force
