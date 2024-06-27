@@ -1,18 +1,14 @@
-name: Generate gitartwork SVG from contribution graph
+name: gitartwork from a contribution graph
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
   push:
-    branches:
-      - master
+  schedule:
+    - cron: '* */24 * * *'
 
 jobs:
   build:
     name: Make gitartwork SVG
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - name: Generate gitartwork
@@ -21,26 +17,17 @@ jobs:
         with:
           user_name: priyanshubuddy
           text: PRIYANSHU
-
+          watermark: false  # Remove the watermark
       - name: Save SVG artifact
         run: echo "${{ steps.gitartwork.outputs.svg }}" > gitartwork.svg
-
-      - name: Upload SVG artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: gitartwork-svg
-          path: gitartwork.svg
-
       - name: Set up Git
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'github-actions@github.com'
-        
       - name: Check out output branch
         run: |
           git fetch
           git checkout output || git checkout -b output
-
       - name: Commit and push generated artwork
         run: |
           git add gitartwork.svg
