@@ -24,18 +24,23 @@ jobs:
 
       - name: Save SVG artifact
         run: echo "${{ steps.gitartwork.outputs.svg }}" > name.svg
-        # Save the generated SVG as name.svg in the workspace
 
       - name: Upload SVG artifact
         uses: actions/upload-artifact@v2
         with:
           name: name-svg
           path: name.svg
-        # Upload name.svg as an artifact for later use
 
-      # Uncomment and customize the following step if you want to push name.svg to another branch
-      #- name: Push generated artwork
-      #  uses: jasineri/simple-push-action@v1
-      #  with:
-      #    target_branch: output
-      #    file_patterns: name.svg
+      - name: Set up Git
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'github-actions@github.com'
+        
+      - name: Check out output branch
+        run: git checkout -b output
+
+      - name: Commit and push generated artwork
+        run: |
+          git add name.svg
+          git commit -m "Generated artwork"
+          git push origin output --force
