@@ -2,8 +2,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/priyanshubuddy/priyanshubuddy/master/gitartwork.svg" alt="Gitartwork animation" height="175px" />
-
+<a href="#"><img width="100%" height="auto" src="/gitartwork.svg" height="175px"/></a>
 ###
 
 <h5 align="left">I'm Priyanshu, a passionate developer specializing in building robust and scalable applications using React, React Native, and Next.js. Currently, I am focusing on developing mobile applications with React Native. I am also an avid learner of Google Cloud technologies.
