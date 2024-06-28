@@ -2,11 +2,8 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/priyanshubuddy/priyanshubuddy/output/snake.svg" alt="Snake animation" />
-
-###
-
 <img src="https://raw.githubusercontent.com/priyanshubuddy/priyanshubuddy/master/gitartwork.svg" alt="Gitartwork animation" height="175px" />
+
 ###
 
 <h5 align="left">I'm Priyanshu, a passionate developer specializing in building robust and scalable applications using React, React Native, and Next.js. Currently, I am focusing on developing mobile applications with React Native. I am also an avid learner of Google Cloud technologies.
@@ -29,5 +26,9 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=priyanshubuddy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
   <img src="https://streak-stats.demolab.com?user=priyanshubuddy&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
 </div>
+
+###
+
+<img src="https://raw.githubusercontent.com/priyanshubuddy/priyanshubuddy/output/snake.svg" alt="Snake animation" />
 
 ###
