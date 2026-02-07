@@ -1,33 +1,85 @@
-<h1 align="left">Hello World!</h1>
+<h1 align="center">Hey, I'm Priyanshu 👋</h1>
+<h3 align="center">
+🚀 React Native Engineer | MERN Stack Developer | Mobile-First Thinker
+</h3>
 
-###
+<p align="center">
+Building scalable mobile experiences & leading products from idea to production.
+</p>
 
-<h5 align="left">I'm Priyanshu, a passionate developer specializing in building robust and scalable applications using React, React Native, and Next.js. Currently, I am focusing on developing mobile applications with React Native. I am also an avid learner of Google Cloud technologies.
-</h5>
+---
 
-###
+<img align="right" height="290" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTk4MmtnYTNjcTVnMG1ibmp4azBzb2h2dDE1em14amw3bGx2emQ0dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eyoisu369Ulbuz4D90/giphy-downsized-large.gif" />
+
+### 👨‍💻 About Me
+
+- 💼 **React Native Developer & Project Lead**
+- 📱 Crafting **high-performance cross-platform apps**
+- 🏗️ Built & led **Shippien** — a fleet & logistics management platform
+- ⚙️ Strong focus on **scalability, performance & clean architecture**
+- ☁️ Exploring **DevOps & Cloud (GCP, CI/CD, automation)**
+
+---
+
+### 🛠 Tech Stack
+
+**Frontend**
+- React • React Native • Next.js
+- Redux • TypeScript • Tailwind • Expo
+
+**Backend**
+- Node.js • Express • MongoDB
+- Firebase • REST APIs
+
+**DevOps & Tools**
+- GitHub Actions • Docker (learning)
+- CI/CD • App Performance Optimization
+- Figma • Postman
+
+---
+
+### 🌟 What I Care About
+
+- 📈 Performance over shortcuts  
+- 🧩 Maintainable, readable code  
+- 🤝 Leading teams & shipping real products  
+- 🧠 Learning systems, not just frameworks  
+
+---
+
+### 💬 Let’s Talk About
+
+- React / React Native Architecture  
+- Large-scale mobile apps  
+- State management & performance tuning  
+- Side projects & startup ideas  
+
+---
+
+### 🌐 Connect With Me
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/dubey-priyanshu/" target="_blank">LinkedIn</a> •
+  <a href="https://x.com/Priyanxhu_" target="_blank">X (Twitter)</a> •
+  <a href="https://discord.com/users/hii.priyanshu" target="_blank">Discord</a>
+</p>
+
+---
 
 <img src="https://raw.githubusercontent.com/priyanshubuddy/priyanshubuddy/output/snake.svg" alt="Snake animation" />
 
-###
+---
 
-<h5 align="left">
-  
-- 🌱 I’m currently learning DevOps.
-- 💬 Ask me about React, React Native, and Next.js.
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/dubey-priyanshu/), [Twitter](https://x.com/Priyanxhu_), [Discord](https://discord.com/users/hii.priyanshu)
-</h5>
-
-###
-
-<img align="right" height="300" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTk4MmtnYTNjcTVnMG1ibmp4azBzb2h2dDE1em14amw3bGx2emQ0dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eyoisu369Ulbuz4D90/giphy-downsized-large.gif"  />
-
-###
+### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=priyanshubuddy&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=priyanshubuddy&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=priyanshubuddy&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=priyanshubuddy&show_icons=true&count_private=true&theme=dracula" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=priyanshubuddy&layout=compact&theme=dracula" height="150" />
+  <img src="https://streak-stats.demolab.com?user=priyanshubuddy&theme=dracula" height="150" />
 </div>
 
-###
+---
+
+<p align="center">
+  <i>“Ship real products. Solve real problems.”</i>
+</p>
