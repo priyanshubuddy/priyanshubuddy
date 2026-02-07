@@ -1,3 +1,7 @@
+<img src="https://raw.githubusercontent.com/priyanshubuddy/priyanshubuddy/output/snake.svg" alt="Snake animation" />
+
+---
+
 <h1 align="center">Hey, I'm Priyanshu 👋</h1>
 <h3 align="center">
 🚀 React Native Engineer | MERN Stack Developer | Mobile-First Thinker
@@ -63,10 +67,6 @@ Building scalable mobile experiences & leading products from idea to production.
   <a href="https://x.com/Priyanxhu_" target="_blank">X (Twitter)</a> •
   <a href="https://discord.com/users/hii.priyanshu" target="_blank">Discord</a>
 </p>
-
----
-
-<img src="https://raw.githubusercontent.com/priyanshubuddy/priyanshubuddy/output/snake.svg" alt="Snake animation" />
 
 ---
 
