@@ -1,6 +1,3 @@
-<img src="https://raw.githubusercontent.com/priyanshubuddy/priyanshubuddy/output/snake.svg" alt="Snake animation" />
-
----
 
 <h1 align="center">Hey, I'm Priyanshu 👋</h1>
 <h3 align="center">
@@ -10,6 +7,10 @@
 <p align="center">
 Building scalable mobile experiences & leading products from idea to production.
 </p>
+
+---
+
+<img src="https://raw.githubusercontent.com/priyanshubuddy/priyanshubuddy/output/snake.svg" alt="Snake animation" />
 
 ---
 
