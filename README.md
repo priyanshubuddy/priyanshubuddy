@@ -20,7 +20,6 @@ Building scalable mobile experiences & leading products from idea to production.
 
 - 💼 **React Native Developer & Project Lead**
 - 📱 Crafting **high-performance cross-platform apps**
-- 🏗️ Built & led **Shippien** — a fleet & logistics management platform
 - ⚙️ Strong focus on **scalability, performance & clean architecture**
 - ☁️ Exploring **DevOps & Cloud (GCP, CI/CD, automation)**
 
